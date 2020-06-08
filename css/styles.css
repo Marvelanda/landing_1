@@ -51,8 +51,9 @@ body * {
     margin-right: 47px;
 }
 
-a.colored {
+.navigation-list__item a:hover {
     color: #E3B873;
+    transition: color 0.5s;
 }
 
 .phone {
