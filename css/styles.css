@@ -12,6 +12,8 @@ body * {
 }
 
 .title {
+    list-style: none;
+    margin: 0;
     font-family: Yeseva One;
     font-style: normal;
     font-weight: normal;
@@ -143,26 +145,18 @@ color: #E3B873;
     margin: 19px 0 0;
 }
 
-.button-second {
-    padding: 19px 42px 21px 41px;
+.button__item {
+    width: 207px;
+    height: 51px;
     margin-top: 41px;
     margin-right: 20px;
 }
 
-.input-submit {
+.button:focus {
     background-color: transparent;
     border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 2px;
-    width: 207px;
-    height: 51px;
-    font-family: Nunito Sans;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 15px;
-    text-align: center;
     color: #FFFFFF;
+    box-sizing: border-box;
 }
 
 .section-second {
@@ -197,30 +191,27 @@ color: #E3B873;
     font-size: 14px;
     line-height: 27px;
     color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
 }
 
 .description-columns {
     width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.description-columns__item {
+    width: 50%;
 }
 
 .intro {
     margin-bottom: 42px;
 }
 
-.title-small {
-    margin-bottom: 9px;
-}
-
 .description.description-small-font {
     font-size: 13px;
     line-height: 21px;
     margin-bottom: 34px;
-}
-
-.title.title-small.title-small__item {
-    padding-top: 17px;
 }
 
 .navigation-arrows__right-arrow {
@@ -235,17 +226,75 @@ color: #E3B873;
     margin-bottom: 52px;
 }
 
-.yellow-subtitle__item {
-    list-style: none;
+.yellow-subtitle__item a {
+    text-decoration: none;
     font-size: 14px;
     line-height: 19px;
+    color: rgba(255, 255, 255, 0.3);
 }
 
-.yellow-subtitle__item.active {
+.active a:focus {
     text-decoration: underline;
+    color: #E3B873;
 }
 
-.webcam-logo {
+.navigation-arrows {
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-arrows > .dots {
+    width: 10px; 
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.dots:nth-child(5) {
+    margin-right: 20px;
+}
+
+.white-subtitle--online-control {
+    margin-top: 92px; 
+    margin-bottom: 13px; 
+}
+
+.white-subtitle {
+    color: #FFFFFF;
+}
+
+.online-control {
     text-align: center;
 }
 
+.title-icon--webcam {
+    background-image: url('../images/webcam.png');
+    width: 33px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+.title-icon::before, .title-icon::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 2px;
+    background-color: #E3B873;
+    position: relative;
+}
+
+.title-icon::before {
+    top: 5px;
+    margin-left: -100%;
+    left: -20px;
+}
+
+.title-icon::after {
+    top: 5px;
+    margin-right: -100%;
+    right: -20px;
+}
