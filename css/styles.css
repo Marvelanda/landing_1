@@ -303,13 +303,13 @@ color: #E3B873;
 .title-icon::before {
     top: 5px;
     margin-left: -100%;
-    left: -20px;
+    left: -10px;
 }
 
 .title-icon::after {
     top: 5px;
     margin-right: -100%;
-    right: -20px;
+    right: -40px;
 }
 
 .section-third {
@@ -378,7 +378,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 600px;
+    width: 800px;
     margin-bottom: 37px;
 }
 
@@ -395,22 +395,95 @@ hr {
     text-align: start;
 }
 
-label.description-checkbox--1 {
+.input-clue--1 input[type="text"] {
+    font-size: 14px;
+    line-height: 23px;
+    border: none;
+}
+
+.input-clue--1:first-child {
+    margin-right: 58px;
+}
+
+.input-clue--1 .input-underline {
+    margin-top: 8px;
+    width: 231px;
+    border: 1px solid rgba(54, 54, 54, 0.3);
+    box-sizing: border-box;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.description-clue {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+input::placeholder {
+    color: #363636;
+}
+
+.description-checkbox > input[type="checkbox"] {
     margin-left: 572px;
+    position: relative;
+    z-index: -1;
+    opacity: 0;
+}
+
+.description-checkbox>span::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #adb5bd;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    border-radius: 1px;
+}
+
+.description-checkbox>input:checked+span::before {
+    background-color: #E3B873;
+    background-image: url('../images/checked.png');
 }
 
 .projects-demonstration {
     margin: 31px 100px 100px;
 }
 
+.subtitle--black {
+    color: #181818;
+}
+
+.subtitle--black1 {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 75px;;
+    margin-bottom: 13px;
+}
+
+.title-icon--instruments {
+    background-image: url('../images/instruments-image.svg');
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+}
+
 .projects {
-    margin-top: -50px;
+    margin-top: -120px;
     display: flex;
     justify-content: space-around;
 }
 
 .projects h4 {
-text-align: center;
+    text-align: center;
+}
+
+.title--small {
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .projects__item {
@@ -420,6 +493,13 @@ text-align: center;
     background-color: white;
     position: relative;
     z-index: 1;
+    padding-top: 25px;
+}
+
+.projects__item ul {
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
 }
 
 .projects-images {
@@ -429,7 +509,24 @@ text-align: center;
 }
 
 .projects-prices {
-    text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.prices__item {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 17px 21px;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px;
+    border: 2px solid rgba(227, 184, 115, 0.3);
+    margin-top: -45px;
+    position: relative;
+    z-index: 2;
+}
+
+.prices__item:not(:last-child) {
+    margin-right: 215px;
 }
