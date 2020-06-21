@@ -1288,6 +1288,7 @@ input::placeholder {
     .input-text--3  {
        padding-right: 10px;
        padding-left: 10px;
+       margin-right: 0;
        width: 100%;
     }    
 }
