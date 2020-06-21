@@ -33,7 +33,7 @@
                 <h1 class="title title--main">Turnkey Repair in the<br> 
                     city of <span class="city-name">Rostov-on-Don</span>
                 </h1>
-                <p class="introduction">Get ready-made turnkey repairs on time<br>
+                <p class="description introduction">Get ready-made turnkey repairs on time<br>
                     with work time saving up to 45 days and 20% from<br>
                     cost of materials due to the organization of work</p>
                 <button class="button button__item">CALCULATE THE COST</button>
@@ -52,32 +52,37 @@
                             on the site. For 14 years on in the construction<br>
                             market we have made happy more than 1000 families
                         </p>
+                        <div class="mobile-image"></div>
                         <div class="description description-columns">
-                            <div class="description-columns__item">
-                                <h5 class="title title--small">city:</h5>
-                                <p class="description description-small-font">Rostov-on-Don<br> LCD admiral</p>
+                            <div class="description-columns-container">
+                                <div class="description-columns__item">
+                                    <h5 class="title title--small">city:</h5>
+                                    <p class="description description-small-font">Rostov-on-Don<br> LCD admiral</p>
+                                </div>
+                                <div class="description-columns__item">                        
+                                    <h5 class="title title--small">apartment area:</h5>
+                                    <p class="description description-small-font">81 m2</p>
+                                </div>
                             </div>
-                            <div class="description-columns__item">                        
-                                <h5 class="title title--small">apartment area:</h5>
-                                <p class="description description-small-font">81 m2</p>
-                            </div>
-                            <div class="description-columns__item">                       
-                                <h5 class="title title--small">Repair time:</h5>
-                                <p class="description description-small-font">3.5 months</p>
-                            </div>                        
-                            <div class="description-columns__item">
-                                <h5 class="title title--small">Repair Cost:</h5>
-                                <p class="description description-small-font">Upon request</p>
+                            <div class="description-columns-container">
+                                <div class="description-columns__item">                       
+                                    <h5 class="title title--small">Repair time:</h5>
+                                    <p class="description description-small-font">3.5 months</p>
+                                </div>                        
+                                <div class="description-columns__item">
+                                    <h5 class="title title--small">Repair Cost:</h5>
+                                    <p class="description description-small-font">Upon request</p>
+                                </div>
                             </div>
                         </div>
                         <div class="navigation-arrows">
-                            <img src="./images/Arrow.png" alt="Arrow" class="navigation-arrows navigation-arrows__left-arrow">
-                            <img src="./images/Stroke.png" alt="Stroke" class="navigation-arrows navigation-arrows__item-stroke">
+                            <img src="./images/Arrow.svg" alt="Arrow" class="navigation-arrows navigation-arrows__left-arrow">
+                            <img src="./images/Stroke.svg" alt="Stroke" class="navigation-arrows navigation-arrows__item-stroke">
                             <div class="navigation-arrows dots"></div>
                             <div class="navigation-arrows dots"></div>
                             <div class="navigation-arrows dots"></div>
-                            <img src="./images/Stroke.png" alt="Stroke" class="navigation-arrows navigation-arrows__item-stroke"> 
-                            <img src="./images/Arrow.png" alt="Arrow" class="navigation-arrows navigation-arrows__right-arrow">
+                            <img src="./images/Stroke.svg" alt="Stroke" class="navigation-arrows navigation-arrows__item-stroke"> 
+                            <img src="./images/Arrow.svg" alt="Arrow" class="navigation-arrows navigation-arrows__right-arrow">
                         </div>     
                     </div>
                     <div class="container section-second-right">
@@ -86,7 +91,7 @@
                             <li class="title yellow-subtitle__item active"><a href="#">Sochi Thieves</a></li>
                             <li class="title yellow-subtitle__item active"><a href="#">Rostov-on-Don Patriotic</a></li>
                         </ul>
-                        <img src="images/image2.png" width="672px" height="482px" alt="Image2">
+                        <img src="images/image2.jpg" width="672px" height="482px" alt="Image2">
                     </div>
                 </div>
                 <h3 class="title middle-title-common white-subtitle white-subtitle--online-control">online control</h3>
@@ -96,10 +101,10 @@
         <section class="section-third">
             <div class="container section-content section-third-content">
                 <div class="video">
-                    <img src="./images/Video.png" widhh="817px" height="434px" alt="Video">
+                    <img src="./images/Video.jpg" widhh="817px" height="434px" alt="Video">
                     <div class="play">
-                        <img class="play-button" src="./images/Ellipse.png" alt="Ellipse"> 
-                        <img class="play-button play-button--1" src="./images/Polygon.png" alt="Polygon">
+                        <div class="play-button"></div>
+                        <img class="play-button--1" src="./images/Polygon.svg" alt="Polygon">
                     </div> 
                     <div class="section-second-overlay"></div>                    
                 </div>                                                
@@ -112,36 +117,38 @@
                     Leave a request below and you will receive a link to the broadcast.
                     </p>
                 </div>
-                <form class="form form-third-section" action="#">
-                    <div class="input-text--1">
-                        <div class="input-clue--1">
-                            <p class="description description-clue">Name</p>
-                            <input type="text" placeholder="What is your name:">
-                            <div class="input-underline"></div>
+                <form class="form" action="#">
+                    <div class="form-third-section">
+                        <div class="input-text--1">
+                            <div class="input-clue--1">
+                                <p class="description description-clue">Name</p>
+                                <input type="text" placeholder="What is your name:">
+                                <div class="input-underline"></div>
+                            </div>
+                            <div class="input-clue--1">
+                                <p class="description description-clue">Phone</p>                                                
+                                <input type="text" placeholder="Your phone number:">
+                                <div class="input-underline"></div>
+                            </div>
                         </div>
-                        <div class="input-clue--1">
-                            <p class="description description-clue">Phone</p>                                                
-                            <input type="text" placeholder="Your phone number:">
-                            <div class="input-underline"></div>
-                        </div>
+                        <input class="button button-submit button-submit--1" type="submit" value="Submit"> 
                     </div>
-                    <input class="button button-submit" type="submit" value="Submit">               
-                </form>                    
-                <label class="description description--black-font description-checkbox checkbox--1">
-                    <input type="checkbox">
-                    <span>I agree to the processing of personal data</span>
-                </label> 
+                    <label class="description description--black-font description-checkbox checkbox--1">
+                        <input type="checkbox">
+                        <span>I agree to the processing of personal data</span>
+                    </label>                                   
+                </form>
+            </div>           
+        </section>
+        <section class="section-third section--for--mobile">
+            <div class="container section-content section-third-content">
                 <h3 class="title subtitle--black middle-title-common subtitle--types-of-repair">TYPES OF REPAIR</h3>
                 <div class="title-icon title-icon--instruments"></div>
                 <div class="projects-demonstration">
-                    <div class="projects-images">
-                        <img src="./images/blueroom.jpg" alt="blueroom">
-                        <img src="./images/redroom.jpg" alt="blueroom">
-                        <img src="./images/darkroom.jpg" alt="blueroom">
-                    </div>   
                     <div class="projects">
+                        <img src="./images/blueroom.jpg" alt="blueroom">
                         <div class="projects__item">                        
-                            <h4 class="title subtitle--grey title--small">Redecorating</h4>
+                            <h4 class="title subtitle--black title--small">Redecorating</h4>
                             <ul class="subtitle--grey">
                                 <li>Dismantling of old coatings</li>
                                 <li>Wallpapering</li>
@@ -151,7 +158,11 @@
                                 <li>Replacing sockets and switches</li>
                                 <li>Replacing doors</li>
                             </ul>
-                        </div>                    
+                        </div> 
+                        <p class="title white-subtitle prices__item">from 900 rub / m2</p>                         
+                    </div>                  
+                    <div class="projects">
+                        <img src="./images/redroom.jpg" alt="blueroom">                  
                         <div class="projects__item">                        
                             <h4 class="title subtitle--black title--small">Overhaul</h4>
                             <ul class="subtitle--grey">
@@ -164,6 +175,10 @@
                                 <li>Replacing doors</li>
                             </ul>                        
                         </div>
+                        <p class="title white-subtitle prices__item">from 1800 rub / m2</p>
+                    </div>   
+                    <div class="projects">
+                        <img src="./images/darkroom.jpg" alt="darkroom"> 
                         <div class="projects__item">                        
                             <h4 class="title subtitle--black title--small">Designer Repair</h4>
                             <ul class="subtitle--grey">
@@ -175,11 +190,7 @@
                                 <li>Replacing sockets and switches</li>
                                 <li>Replacing doors</li>
                             </ul>
-                        </div>
-                    </div> 
-                    <div class="projects-prices">                        
-                        <p class="title white-subtitle prices__item">from 900 rub / m2</p>
-                        <p class="title white-subtitle prices__item">from 1800 rub / m2</p>
+                        </div>     
                         <p class="title white-subtitle prices__item">from 4000 rub / m2</p>
                     </div>                    
                 </div>
@@ -192,25 +203,25 @@
                         <div class="description description--black-font section-forth-content--left">
                             <div>                            
                                 <div class="circle">
-                                    <img src="./images/01.png" alt="one">
+                                    <img src="./images/01.svg" alt="one">
                                 </div>                            
                                 <p class="description--black-font1">Our specialist will arrive for measurements per day<br> contact, or appoint a date convenient for you</p>
                             </div>
                             <div>                            
                                 <div class="circle">
-                                    <img src="./images/02.png" alt="two">
+                                    <img src="./images/02.svg" alt="two">
                                 </div>
                                 <p class="description--black-font2">Free metering</p>
                             </div>
                             <div>                            
                                 <div class="circle">
-                                    <img src="./images/03.png" alt="three">
+                                    <img src="./images/03.svg" alt="three">
                                 </div>
                                 <p class="description--black-font3">Free consultation</p>
                             </div>
                             <div>                            
                                 <div class="circle">
-                                    <img src="./images/04.png" alt="four">
+                                    <img src="./images/04.svg" alt="four">
                                 </div>
                                 <p class="description--black-font4">Get a cost estimate and<br> the timing of your future repairs</p>
                             </div>
@@ -241,7 +252,7 @@
                                     <input class="checkbox--2" type="checkbox">
                                     <span>I agree to the processing of personal data</span>
                                 </label>                
-                            <button class="button button-submit button-submit--1">Call the measurer</button>      
+                            <button class="button button-submit button-submit--2">Call the measurer</button>      
                         </form>
                     </div>
                 </div>                                           
@@ -249,8 +260,7 @@
             <div class="section-forth-content--2">            
                 <div class="save">
                     <div class="circle">                    
-                        <img src="./images/Pig.png" alt="Pig">
-                        <img src="./images/dollar.png" alt="dollar">    
+                        <img src="./images/Pig.svg" alt="Pig">                        
                     </div>                            
                 </div>
                 <div class="description description--middle-font description--yellow-font">
@@ -287,6 +297,20 @@
                                     masters
                                 </p>                              
                             </div>
+                            <div class="customers-projects__item prices__item">
+                                <div class="border">                        
+                                    <div class="icon measure-image"></div>
+                                    <div class="title white-subtitle">
+                                        40 m2
+                                    </div>
+                                </div>
+                                <div>                        
+                                    <div class="icon days-image"></div>
+                                    <div class="title white-subtitle">
+                                        48 DAYS
+                                    </div>
+                                </div>
+                            </div>                            
                         </div>  
                         <div class="customers-image">
                             <div class="customers-image__container">
@@ -308,6 +332,20 @@
                                     masters
                                 </p>                           
                             </div>
+                            <div class="customers-projects__item prices__item">
+                                <div class="border">                        
+                                    <div class="icon measure-image"></div>
+                                    <div class="title white-subtitle">
+                                        90 м2
+                                    </div>
+                                </div>
+                                <div>                        
+                                    <div class="icon days-image"></div>
+                                    <div class="title white-subtitle">
+                                        128 DAYS
+                                    </div>
+                                </div>
+                            </div>                            
                         </div>  
                         <div class="customers-image">
                             <div class="customers-image__container">
@@ -329,52 +367,22 @@
                                     masters
                                 </p>                               
                             </div>
-                        </div>  
+                            <div class="customers-projects__item prices__item">
+                                <div class="border">                        
+                                    <div class="icon measure-image"></div>
+                                    <div class="title white-subtitle">
+                                        56 м2 
+                                    </div>
+                                </div>
+                                <div>                        
+                                    <div class="icon days-image"></div>
+                                    <div class="title white-subtitle">
+                                        86 DAYS
+                                    </div>
+                                </div>
+                            </div>                                
+                        </div>                      
                     </div>
-                    <div class="customers-projects">
-                        <div class="customers-projects__item prices__item">
-                            <div class="border">                        
-                                <div class="icon measure-image"></div>
-                                <div class="title white-subtitle">
-                                    40 m2
-                                </div>
-                            </div>
-                            <div>                        
-                                <div class="icon days-image"></div>
-                                <div class="title white-subtitle">
-                                    48 DAYS
-                                </div>
-                            </div>
-                        </div>
-                        <div class="customers-projects__item prices__item">
-                            <div class="border">                        
-                                <div class="icon measure-image"></div>
-                                <div class="title white-subtitle">
-                                    90 м2
-                                </div>
-                            </div>
-                            <div>                        
-                                <div class="icon days-image"></div>
-                                <div class="title white-subtitle">
-                                    128 DAYS
-                                </div>
-                            </div>
-                        </div>
-                        <div class="customers-projects__item prices__item">
-                            <div class="border">                        
-                                <div class="icon measure-image"></div>
-                                <div class="title white-subtitle">
-                                    56 м2 
-                                </div>
-                            </div>
-                            <div>                        
-                                <div class="icon days-image"></div>
-                                <div class="title white-subtitle">
-                                    86 DAYS
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
                </div>
             </div>
         </section> 
@@ -407,21 +415,21 @@
                         <input type="checkbox">
                         <span>I agree to the processing of personal data</span>
                     </label>
-                    <input class="button button-submit button-submit-questions" type="submit" value="Submit">                     
+                    <input class="button button-submit button-submit--3" type="submit" value="Submit">                     
                 </div>  
                 <div class="title middle-title-common title--address">
                     Rostov-on-Don, Nansen St., 239 Shopping Center<br> Decorum Tel +7 (928) 768 32 29
                 </div>
                 <div class="icons--social">
                     <div class="circle circle-contacts">                    
-                        <img src="./images/mail.png" alt="mail">
+                        <img src="./images/mail.svg" alt="mail">
                     </div> 
                     <div class="circle circle-contacts">                    
-                        <img src="./images/instagram.png" alt="instagram">
+                        <img src="./images/instagram.svg" alt="instagram">
                     </div>
                 </div>                    
                 <div class="map">
-                    <img src="./images/map (1).png" alt="map">
+                    <img src="./images/map.jpg" alt="map">
                 </div>
             </div>
             <div class="section-sixth-overlay"></div>
