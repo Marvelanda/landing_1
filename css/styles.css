@@ -530,18 +530,12 @@ li {
 
 @media screen and (max-width: 1299px) {
     .video {
-        margin-top: -220px;
+        margin-top: -180px;
     }
 
     .video > img {
        width: 320px;
        height: 187px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .video {
-        margin-top: -200px;
     }
 }
 
@@ -772,7 +766,7 @@ input::placeholder {
     }
 
     input[type="checkbox"] {    
-        margin-left: -18px;
+        margin-left: -8px;
     }
 
     .checkbox-mobile--1>input[type="checkbox"] {    
@@ -1249,7 +1243,7 @@ input::placeholder {
     .section-sixth-container  {
        margin: 0 auto; 
        position: static;
-       width: 340px;
+       width: 100%;
        height: 500px
     }    
 }
@@ -1341,6 +1335,13 @@ input::placeholder {
 .icons--social {
     display: flex;
     justify-content: center;
+}
+
+
+@media screen and (max-width: 1299px) {
+    .icons--social  {
+       height: 51px;
+    }   
 }
 
 .circle-contacts {
