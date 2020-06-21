@@ -235,7 +235,7 @@ li {
     .title--main {
         font-size: 23px;
         line-height: 132.83%;
-        margin: 55px 10px 15px;
+        margin: 55px 0 15px;
     }
 }
 
@@ -274,7 +274,7 @@ li {
     .introduction {
         font-size: 14px;
         line-height: 135.84%;
-        margin: 20px 10px 35px;
+        margin: 20px 0 35px;
     }
 }
 
@@ -289,7 +289,7 @@ li {
     .button__item  {
         width: 340px;
         display: block;
-        margin: 20px 10px 35px;
+        margin: 20px 0 35px;
     }
 
     .button__item:first-of-type {
@@ -653,7 +653,7 @@ hr {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        width: 400px;
+        width: 100%;
     }
 }
 
@@ -687,7 +687,7 @@ hr {
 
 @media screen and (max-width: 1299px) {
     .input-text--1  {
-        width: 400px;
+        width: 100%;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
@@ -770,8 +770,9 @@ input::placeholder {
     }
 
     input[type="checkbox"] {    
-        margin-left: -20px;
-    }    
+        margin-left: -18px;
+    }
+
 }
 
 .description-checkbox>span::before {
@@ -1274,6 +1275,14 @@ input::placeholder {
     .input-text--3  {
        padding-right: 20px;
        padding-left: 20px;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    .input-text--3  {
+       padding-right: 0;
+       padding-left: 10px;
+       width: 100%;
     }    
 }
 
