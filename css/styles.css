@@ -334,7 +334,7 @@ li {
 @media screen and (max-width: 1299px) {
     .mobile-image {
         background-image: url('../images/image_mobile.jpg');
-        width: 380px;
+        width: 340px;
         height: 241px;
         margin-bottom: 36px;
     }
