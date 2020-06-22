@@ -534,8 +534,8 @@ li {
     }
 
     .video > img {
-       width: 320px;
-       height: 187px;
+       width: 340px;
+       height: 207px;
     }
 }
 
@@ -588,8 +588,9 @@ li {
 
 @media screen and (max-width: 1299px) {
     .section-second-overlay {
-       width: 320px;
-       height: 197px;
+       width: 340px;
+       height: 217px;
+       margin: 0 auto;
     }
 }
 
@@ -771,6 +772,16 @@ input::placeholder {
 
     .checkbox-mobile--1>input[type="checkbox"] {    
         margin-left: -68px;
+    }
+}
+
+@media screen and (min-width: 424px) {
+    input[type="checkbox"] {    
+        margin-left: 0px;
+    }
+
+    .checkbox-mobile--1>input[type="checkbox"] {    
+        margin-left: -65px;
     }
 }
 
@@ -1201,7 +1212,7 @@ input::placeholder {
 @media screen and (max-width: 1299px) {
     .section-sixth  {
        background: black;
-       height: 1054px;
+       height: 1064px;
     }
 }
 
@@ -1325,6 +1336,9 @@ input::placeholder {
 @media screen and (max-width: 1299px) {
     .title--address  {
         padding-top: 41px;
+        width: 340px;
+        margin: 0 auto;
+        margin-bottom: 23px;
     }    
 
     br {
